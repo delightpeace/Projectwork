@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple business</title>
+    <meta name="description" content="A simple business website template.">
+<meta name="keywords" content="business, template, HTML, CSS">
+<meta name="author" content="Delight Adebisi">
+<link rel="stylesheet" href="./Assests/styles.css">
+
+</head>
+
+<body>
+    <header> 
+        <div class="container header-container">
+            <!-- business name -->
+             <div class="logo-container">
+                <!-- logo -->
+                 <img src="./Assests/images/logo.png" 
+                 alt= "Logo" class="logo"/>
+             </div>
+            <h1>Simple Business</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Welcome to Simple Business</h2>
+        <p>Your success is our priority.</p>
+    </section>
+
+    
+    <!-- Main content -->
+    <main class = "container">
+        
+    <!-- About Section -->
+     <section id="about" class="about">
+<h2>About Us</h2>
+<p>
+
+Simple Business is dedicated to delivering quality solutions tailored to your needs.
+</p>
+
+
+</section>
+    <!-- Services Section -->
+     <section id="services" class="services">   
+<h2>Our Services</h2>
+<div class="service grid">
+     <!---each service card has an image, title, description and button-->
+     <div class="service-card">
+        <img src="./Assests/images/cocoandwifi-home-office-4996834_1920.jpg" alt="Service 1">
+         <h3>Web Development</h3>
+        <p>
+We offer a wide range of services to help your business thrive in the digital age.
+        </p>
+        <button type="button" class="learn-more-btn">Learn More</button>
+     <img src="./Assests/images/as_photography-digital-marketing-1433427_1920.jpg" alt="Service 2">
+     <h3>
+Digital Marketing
+     </h3>
+     <p>    
+Our team of experts is here to support you every step of the way, ensuring your success in the competitive market.
+     </p>
+     <button type="button" class="learn-more-btn">Learn More</button>
+     
+     <img src="./Assests/images/ylanite-desk-3076954_1920.jpg" alt="service 3">
+     <H3>Business Consulting</H3>
+        <p>
+From web development to digital marketing, we have the expertise to help your business grow and succeed.
+        </p>
+        <button type="button" class="learn-more-btn">Learn MoreS</button>
+     </div> 
+        
+        
+        
+
+     </div>
+</div>
+</section>
+    </main>
+    
+    <!-- Contact Section -->
+     <section id="contact"  class="contact">
+<div class= "contact-container">
+    <h2>Contact Us</h2>
+
+
+<p>
+Feel free to reach out for more information about our services.
+</p>
+<!--Form-->
+<form action="https://example.com/contact " method="post">
+    
+    <label for ="name">Name:</label>
+    <input type="text" id="name" name="name" 
+    placeholder="Your name"
+    required> 
+    <label for ="email">Email:</label>
+    <input type="email" id="email" name="email"
+    placeholder="Type your email"
+    required>
+    <label for ="message">Message:</label>
+    <textarea id="message" 
+    rows="5"
+    coloumns="10"
+    name="message" 
+    placeholder="Type your message"
+    required></textarea>
+    <button type="submit">Send</button>
+
+</form>
+</div>
+
+    <!-- Main content -->
+    <main>
+    <!-- Footer -->
+ <footer>
+    <div class="container">
+        <p> 2024 Simple Business. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
